@@ -5,9 +5,7 @@ import user_icon from "../Assets/social_14812155.png";
 import password_icon from "../Assets/lock_18644106.png";
 function LoginSignup() {
   const [action, setACtion] = useState("Sign Up");
-  function handleEvent() {
-    setACtion();
-  }
+
   return (
     <div className="container">
       <div className="header">
